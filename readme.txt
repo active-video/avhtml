@@ -2,7 +2,7 @@
 
 
 ============================================================
-Version History - Current Version 2.1.0, released 10/2/12
+Version History - Current Version 2.1.2, released 9/23/2014
 ============================================================
 
 
