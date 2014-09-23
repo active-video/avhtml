@@ -1,0 +1,71 @@
+.AVKeyboard,.AVKeyboard div,.AVKeyboard p,.AVKeyboardContainer,.AVKeyboard button
+{position:absolute; opacity:1.0; outline-width:0;}
+
+.AVKeyboard{
+	left:0px;
+	top:0px;
+	position: relative;
+}
+
+.AVKeyboardSD, .AVKeyboardHD{
+    border-radius: 8px; 
+}
+
+.AVKeyboard,.AVKeyboardSD,.AVKeyboardSD p.AVB,.AVKeyboardSD span.AVB,.AVKeyboardSD button.AVB, .AVKeyboardSD textarea.AVB,.AVKeyboardSD .AVB,
+.AVB:focus{/*Pseudo class for button forced to SD for focus since selector with psuedo focus not working*/
+	font-size:14px;
+	background-repeat:no-repeat; 
+	text-align:center; 
+	background-size:contain; 
+	outline-width:0;
+}
+.AVKeyboardHD,.AVKeyboardHD p.AVB, .AVKeyboardHD span.AVB, .AVKeyboardHD button.AVB, .AVKeyboardHD textarea.AVB,.AVKeyboardHD .AVB{
+	font-size: 24px;
+}
+
+.AVKeyboardSD button.AVB:focus,.AVKeyboard p.AVB:focus,.AVKeyboard textarea.AVB:focus{
+	background-color:transparent;
+}
+
+.AVKeyboard{
+    background-color:transparent;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:0px 0px;    
+    text-align:center;
+}
+.AVKeyboardStitcher .AVB,.AVKeyboardStitcher .AVB:focus{padding-top:3px;}
+.AVKeyboardRendercast .AVB,.AVKeyboardRendercast .AVB:focus{padding-top:7px;}
+
+span.AVKeyboardCursor{
+	background-color:#959595;
+	font-size: 24px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;	
+}
+p:focus span.AVKeyboardCursor,textarea:focus span.AVKeyboardCursor{background-color:white;}
+
+
+.AVB{     	
+	color:#e7e7e7;
+	font-weight:500;
+	font-family:'OpenSans';
+	border-width: 1px;
+	background-color: #4b4b4b;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: contain;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-color: #333333;
+	border-radius: 2px;
+}
+
+.AVB:focus{  
+    background-color: #4f9500;
+    color:#FFFFFF;
+}

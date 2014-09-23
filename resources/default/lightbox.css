@@ -1,0 +1,124 @@
+.AVLightboxUI,.AVLightboxUI div,.AVLightboxUI p,.AVLightboxContainer,.AVLightboxIContainer, .AVLightboxButton,.AVLightboxContent
+{position:absolute; opacity:1.0;}
+
+/* STYLES FOR SETTINGS OVERLAY */
+
+.AVLightboxUI{
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+.AVLightboxButton,button.AVLightboxButton, .AVLightboxUI button{
+	background-image:url('images/btn_d.png');
+	background-repeat:no-repeat;
+	background-position:0 2px;
+	background-color:transparent;
+	color:white;		
+	font-weight:bold;
+	text-align:center;
+	border-width:0;
+	outline:none;
+}
+.AVLightboxButton:focus,.AVLightboxUI button:focus{
+	background-image:url('images/btn_f.png');
+	background-repeat:no-repeat;
+	background-color:transparent;
+	color:white;
+	font-weight:bold;
+}
+.AVLightboxButtonSD{
+	width:80px;
+	height:32px;
+}
+
+.AVLightboxButtonHD{
+	width:80px;
+	height:32px;
+}
+
+.AVLightboxContainer,.AVLightboxContainer p,.AVLightboxContainer p,.AVLightboxIContainer,.AVLightboxContent,.AVLightboxContent p{
+	color: black;
+	background-color:transparent;
+}
+.AVLightboxIContainer{
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+.AVLightboxIContainerSD{
+	background-image:url('images/bg_lightbox_sd.png');
+}
+.AVLightboxIContainerHD{
+	background-image:url('images/bg_lightbox_sd.png');
+}
+
+.AVLightboxUI button,.AVLightboxIContainer button,.AVLightboxIContainer button:focus.AVLightboxContainer,.AVLightboxIContainer p, .AVLightboxIContainer p:focus, .AVLightboxContainer p
+,.AVLightboxLarge,.AVLightboxButton,.AVLightboxButton:focus{
+	font-family: 'Arial Unicode MS';/*This font was selected for the UTF-8 support it has*/	
+}
+
+.AVLightboxUI{
+	left:0px;
+	top:0px;
+}
+
+.AVLightboxContainer{
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-position:0 0;
+	background-repeat: repeat;
+}
+
+.AVLightboxClose{
+	top:0;
+	left:0;
+	width:64px;
+	height:16px;
+	background-image:url('images/btn_close_d.png');
+}
+.AVLightboxClose:focus{
+	background-image:url('images/btn_close_f.png');
+}
+
+.AVLightboxButtonSD,.AVLightboxButtonSD:focus, .AVLightboxContainerSD,.AVLightboxContainerSD span,.AVLightboxContainerSD p,.AVLightboxContainerSD p:focus,
+.AVLightboxIContainer p,.AVLightboxIContainer p:focus,.AVLightboxIContainer span,.AVLightboxIContainer span:focus{
+	font-size:12px;
+}
+
+.AVLightboxButtonHD,.AVLightboxButtonHD:focus, .AVLightboxContainerHD,.AVLightboxContainerHD span,.AVLightboxContainerHD p,.AVLightboxContainerHD p:focus{
+	font-size:16px;
+}
+
+p.AVLightboxLargeSD{
+	font-size:23px;
+	font-weight:bold;
+}
+p.AVLightboxLargeHD{
+	font-size:30px;
+	font-weight:bold;
+}
+
+.AVLightboxClose, .AVLightboxUI img,.AVLightboxUI img:focus,.AVLightboxUI p,.AVLightboxUI span,.AVLightboxUI div,.AVLightboxUI button{
+	opacity:1.0;	
+	background-color:transparent;
+}
+
+p.AVAlertText{
+	padding-left: 8px;
+	padding-top: 6px;	
+}
+
+.AVLightboxUI .opacity10{background-image:url('images/opacity10.png');}
+.AVLightboxUI .opacity20{background-image:url('images/opacity20.png');}
+.AVLightboxUI .opacity30{background-image:url('images/opacity30.png');}
+.AVLightboxUI .opacity40{background-image:url('images/opacity40.png');}
+.AVLightboxUI .opacity50{background-image:url('images/opacity50.png');}
+.AVLightboxUI .opacity60{background-image:url('images/opacity60.png');}
+.AVLightboxUI .opacity70{background-image:url('images/opacity70.png');}
+.AVLightboxUI .opacity80{background-image:url('images/opacity80.png');}
+.AVLightboxUI .opacity90{background-image:url('images/opacity90.png');}
+.AVLightboxUI .opacity100{background-image:url('images/opacity100.png');}
+

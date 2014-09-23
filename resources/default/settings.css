@@ -1,0 +1,145 @@
+#AVSettingsUI,#AVSettingsUI div,#AVSettingsUI p,#AVSettingsContainer,#AVSettingsLeftMenu,#AVSettingsContent,
+.AVSettingsLeftMenuItem,.AVSettingsLeftChildMenuHolder,.AVSettingsLeftChildMenuItem
+{position:absolute; opacity:1.0;}
+
+/* STYLES FOR SETTINGS OVERLAY */
+
+.AVSettingsUI{
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+.AVSettingsButton{
+	/*background-image:url('../shared/avnlib/resources/images/btn_d.png');*/
+	background-repeat:no-repeat;
+	background-position:0 2px;
+	background-color:transparent;
+	color:white;		
+	font-weight:bold;
+	text-align:center;
+}
+.AVSettingsButton:focus{
+	/*background-image:url('../shared/avnlib/resources/images/btn_f.png');*/
+	background-repeat:no-repeat;
+	background-color:transparent;
+	color:white;
+	font-weight:bold;
+}
+.AVSettingsButtonSD{
+	width:80px;
+	height:32px;
+}
+
+.AVSettingsButtonHD{
+	width:80px;
+	height:32px;
+}
+
+#AVSettingsLeftMenu,#AVSettingsContent,.AVSettingsUI p.AVSettingsLeftMenuItem,.AVSettingsLeftChildMenuHolder,.AVSettingsLeftChildMenuItem{
+	background-color: transparent;
+	color:black;
+}
+
+#AVSettingsContent,#AVSettingsContent p,#AVSettingsContent p{
+	color: black;
+	background-color:transparent;
+}
+
+.AVSettingsUI button,#AVSettingsContent,#AVSettingsContent p,#AVSettingsContent p, .AVSettingsLarge,.AVSettingsButton,.AVSettingsButton:focus{
+	font-family: 'Arial Unicode MS';/*This font was selected for the UTF-8 support it has*/	
+}
+
+
+.AVSettingsLeftChildMenuItem{
+	font-weight:normal;
+	padding-left:10%;
+}
+
+.AVSettingsLeftMenuItem{
+	font-weight:bold;
+}
+
+.AVSettingsLeftMenuItem,.AVSettingsLeftChildMenuHolder, .AVSettingsLeftChildMenuItem, .AVSettingsLoading
+{
+	background-color:transparent;	
+}
+
+.AVSettingsLeftMenuItem:focus, .AVSettingsLeftChildMenuItem:focus{
+	/*background-image:url('../shared/avnlib/resources/images/chaser.png');*/
+	background-repeat:repeat-x;
+	color:white;	
+}
+
+
+
+.AVSettingsUI{
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+.AVSettingsContainer{
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-position:0 0;
+}
+
+.AVSettingsClose{
+	top:22%;
+	left:18%;
+	width:64px;
+	height:16px;
+	
+}
+
+.AVSettingsLeftMenu{
+	top:28%;
+	left:20%;
+	width:22%;
+	height:50%;
+}
+
+.AVSettingsContent{
+	top:28%;
+	left:45%;
+	width:38%;
+	height:50%;
+}
+
+.AVSettingsLeftMenuItem, .AVSettingsLeftChildMenuItem{
+	width:100%;
+	left:0px;	
+}
+
+.AVSettingsLeftChildMenuHolder{
+	width:100%;
+}
+
+.AVSettingsLeftChildMenuItemSD,.AVSettingsButtonSD,.AVSettingsButtonSD:focus, .AVSettingsLeftChildMenuItemSD, .AVSettingsContentSD,.AVSettingsContentSD span,.AVSettingsContentSD p,.AVSettingsLeftChildMenuItemSD:focus{
+	font-size:12px;
+}
+
+.AVSettingsLeftChildMenuItemHD,.AVSettingsButtonHD, .AVSettingsLeftChildMenuItemHD, .AVSettingsLeftChildMenuItemHD:focus, .AVSettingsContentHD,.AVSettingsContentHD span,.AVSettingsContentHD p,.AVSettingsLeftChildMenuItemHD:focus{
+	font-size:16px;
+}
+
+p.AVSettingsLargeSD{
+	font-size:23px;
+	font-weight:bold;
+}
+p.AVSettingsLargeHD{
+	font-size:30px;
+	font-weight:bold;
+}
+
+#AVSettingsClose, .AVSettingsUI img,.AVSettingsUI img:focus,.AVSettingsUI p,.AVSettingsUI span,.AVSettingsUI div,.AVSettingsUI button{
+	opacity:1.0;	
+}
+
+/* COMPONENT SPECIFIC */
+#AVSettingsContent p.AVSettingsPairingDeviceCount{font-weight:bold;}
