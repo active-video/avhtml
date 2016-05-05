@@ -19,7 +19,7 @@ var _av = ( function(){
          * @name av
          * @namespace <p>Welcome to the AV Framework!</p>
          * <p>The top level av namespace, persisted in all open windows including av.js</p>
-         * <p><u><strong>Current version: 2.1.2 (02/19/2013)</strong></u> (note: final branch/release for DHTML: <a href="http://developer.activevideo.com/download/category/12-avhtml" target="_blank">http://developer.activevideo.com/download/category/12-avhtml</a> (1.0); 2.0+ is H5 only)
+         * <p><u><strong>Current version: 2.1.4 (05/05/2016)</strong></u> (note: final branch/release for DHTML: <a href="http://developer.activevideo.com/download/category/12-avhtml" target="_blank">http://developer.activevideo.com/download/category/12-avhtml</a> (1.0); 2.0+ is H5 only)
          * 
          * <p>Change history <a href="http://developer.activevideo.com/framework-releasenotes" target="_blank">http://developer.activevideo.com/framework-releasenotes</a></p>
          * <p>With the primary goal of speeding up development
@@ -830,8 +830,7 @@ var _av = ( function(){
         }
         
         av.onunload = function(evt){
-            av.dispatchEvent('unload', {});
-            //av.log.debug("Logging unload 1 ");
+            av.dispatchEvent(av, 'unload');
         }
         
         av.extendPrototypes = function(){
