@@ -178,3 +178,5 @@ v 2.1.2
 	-no changes.
     -keyboard.js
         - conversion of keyboard.js - images replaced with css.
+v 2.1.4
+    - av.js fixed av.onunload, arguments were in wrong order for av.dispatchEvent()
